@@ -30,11 +30,12 @@ const nextConfig = {
       {
         source: "/headers",
         destination: "/api/proxy",
-      },
-      {
-        source: "/",
-        destination: "/api/proxy"
       }
+      // ,
+      // {
+      //  source: "/",
+      //  destination: "/api/proxy"
+      // }
     ];
   },
 };
